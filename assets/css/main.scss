@@ -3,4 +3,36 @@
 
 @import "no-style-please";
 
-img{transition:transform.2s}img:hover{transform:scale(1.5)}
+.zoom, .zoom *
+{
+	position: fixed;
+	max-width: 100%;
+	max-height: 100%;
+	top: 50%;
+	left: 50%;
+}
+
+.zoom *
+{
+	transform: translate(-50%, -50%);
+}
+
+.zoom
+{
+	display: none;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.1);
+}
+
+*:focus + .zoom
+{
+	display: block;
+}
+
+img
+{
+	cursor: pointer;
+}
