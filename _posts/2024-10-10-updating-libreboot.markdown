@@ -5,12 +5,17 @@ date:   2024-10-10  13:49:00 +0200
 categories: libreboot
 ---
 
-Libreboot docs pages are usually really confusing, not updated or incomplete. Purpose of this page is to provide a simple guide to just upgrade to a newer release. In this guide I'm upgrading my Lenovo Thinkpad T440p to version 20241008 internally on Void Linux.
+Purpose of this page is to provide a simple guide to just upgrade to a newer release. In this guide I'm upgrading my Lenovo Thinkpad T440p to version 20241008 internally on Void Linux.
 
 ---
 {: data-content="setting up lbmk"}
 
 download lbmk [here](https://codeberg.org/libreboot/lbmk/releases), in this example tag _20241008_
+
+if you downloaded a release (tar or zip):
+```
+git init
+```
 
 in extracted _lbmk/_ directory check for supported distributions to install dependencies: 
 ```
