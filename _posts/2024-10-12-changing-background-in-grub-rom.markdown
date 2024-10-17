@@ -5,7 +5,7 @@ date:   2024-10-12  15:59:00 +0200
 categories: libreboot
 ---
 
-This guides shows how to change GRUB background in already injected libreboot rom. I will use coreboot and grub tools built manually via lbmk. I will insert new grub config specifying custom background file, and then test it using grubtest.cfg and after that finalize using just grub.cfg. At the end I also show how to edit grub config prior to building your roms and change background this way, instead of changing grub config by modifying injnected rom. I'm doing this process on Void Linux, and the rom I will be modyfing is for Lenovo Thinkpad T420, version of libreboot 20241008.
+This guides shows how to change GRUB background in already injected libreboot rom. I will use coreboot and grub tools built manually via lbmk. I will insert new grub config specifying custom background file, and then test it using _grubtest.cfg_ and after that finalize using just _grub.cfg_. At the end I also show how to edit grub config prior to building your roms and change background this way, instead of changing grub config by modifying injnected rom. I'm doing this process on Void Linux, and the rom I will be modyfing is for Lenovo Thinkpad T420, version of libreboot 20241008.
 
 ---
 {: data-content="setting up lbmk"}
